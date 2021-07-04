@@ -24,11 +24,11 @@ class Allocator;
 Device *CreateSystemDefaultDevice(Allocator *allocator = nullptr);
 
 class Texture;
-class TextureDescriptor;
+struct TextureDescriptor;
 class Buffer;
 class Library;
 class RenderPipelineState;
-class RenderPipelineDescriptor;
+struct RenderPipelineDescriptor;
 class DepthStencilState;
 class DepthStencilDescriptor;
 class CommandQueue;
