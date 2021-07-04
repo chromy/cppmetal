@@ -53,7 +53,7 @@ public: // Public methods for CPPMetal internal implementation
 };
 
 class RenderPipelineState;
-class RenderPipelineDescriptor;
+struct RenderPipelineDescriptor;
 
 class Function
 {
