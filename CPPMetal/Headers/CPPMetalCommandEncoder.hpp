@@ -52,9 +52,9 @@ protected:
 
     CommandEncoder(CPPMetalInternal::CommandEncoder objCObj, Device & device);
 
-    Device *m_device;
-
     CPPMetalInternal::CommandEncoder m_objCObj;
+
+    Device *m_device;
 
 };
 
